@@ -28,7 +28,7 @@ jobs:
         allow-no-subscriptions: true
 
     - name: 'Set subscription'
-  run: az account set --subscription e6060aed-63b5-42aa-9629-bee62cb819cf
+      run: az account set --subscription e6060aed-63b5-42aa-9629-bee62cb819cf
 
     - name: "Deploy to Azure WebApp"
       uses: azure/webapps-deploy@v2
